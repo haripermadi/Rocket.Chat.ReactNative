@@ -63,7 +63,7 @@ export default class Root extends React.Component {
 		this.state = {
 			theme: defaultTheme(),
 			themePreferences: {
-				currentTheme: supportSystemTheme() ? 'automatic' : 'light',
+				currentTheme: supportSystemTheme() ? 'red' : 'light',
 				darkLevel: 'dark'
 			},
 			width,
