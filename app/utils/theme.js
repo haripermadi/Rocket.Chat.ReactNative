@@ -21,7 +21,14 @@ export const getTheme = (themePreferences) => {
 	if (currentTheme === 'automatic') {
 		theme = defaultTheme();
 	}
-	return theme === 'dark' ? darkLevel :theme === 'red' ?'red' : 'light';
+	if(theme === 'dark') {
+		return darkLevel 
+	} else if (theme === 'red'){
+		return 'red'
+	} else {
+		return 'light'
+	}
+	// return theme === 'dark' ? darkLevel : theme === 'red' ? 'red' : 'light';
 };
 
 export const newThemeState = (prevState, newTheme) => {

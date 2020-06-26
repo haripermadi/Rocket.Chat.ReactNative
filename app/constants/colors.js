@@ -148,7 +148,7 @@ export const themes = {
 		titleText: '#ffffff',
 		bodyText: '#ffffff',
 		backdropColor: '#ffffff',
-		dangerColor: '#f5455c',
+		dangerColor: '#6b0900',
 		successColor: '#2de0a5',
 		borderColor: '#950c00',
 		controlText: '#ffffff',
@@ -180,5 +180,5 @@ export const themes = {
 		passcodeSecondary: '#6C727A',
 		passcodeDotEmpty: '#CBCED1',
 		passcodeDotFull: '#6C727A'
-	},
+	}
 };
