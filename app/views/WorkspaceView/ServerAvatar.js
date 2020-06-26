@@ -54,7 +54,8 @@ const ServerAvatar = React.memo(({ theme, url, image }) => (
 		{image && (
 			<ImageProgress
 				style={[styles.image, { borderColor: themes[theme].borderColor }]}
-				source={{ uri: `${ url }/${ image }` }}
+				// source={{ uri: `${ url }/${ image }` }}
+				source={require('../../static/images/logo.png')}
 				resizeMode={FastImage.resizeMode.cover}
 				indicator={Progress.Pie}
 				indicatorProps={{
