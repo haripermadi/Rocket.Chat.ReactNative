@@ -21,12 +21,12 @@ export const getTheme = (themePreferences) => {
 	if (currentTheme === 'automatic') {
 		theme = defaultTheme();
 	}
-	if(theme === 'dark') {
-		return darkLevel 
-	} else if (theme === 'red'){
-		return 'red'
+	if (theme === 'dark') {
+		return darkLevel;
+	} else if (theme === 'red') {
+		return 'red';
 	} else {
-		return 'light'
+		return 'light';
 	}
 	// return theme === 'dark' ? darkLevel : theme === 'red' ? 'red' : 'light';
 };
